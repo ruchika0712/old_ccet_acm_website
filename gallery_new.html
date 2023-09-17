@@ -1,0 +1,2329 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 0%;">
+
+<!-- Mirrored from preview.colorlib.com/theme/portech/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Sep 2021 20:37:58 GMT -->
+
+<head>
+    <title>CCET | ACM | GALLERY</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arizonia&amp;family=Roboto:wght@300;400;500;700;900&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+        href="css/A.animate.css%2bowl.carousel.min.css%2bowl.theme.default.min.css%2bmagnific-popup.css%2bflaticon.css%2bstyle.css%2cMcc.tVkclJh8gl.css.pagespeed.cf.ixjTYanCMD.css" />
+    <link rel="stylesheet"
+        href="/css/animate.css+owl.carousel.min.css+owl.theme.default.min.css+magnific-popup.css+flaticon.css+style.css.pagespeed.cc.tVkclJh8gl.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/9732865b92.js" crossorigin="anonymous"></script>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arizonia&amp;family=Roboto:wght@300;400;500;700;900&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../../../stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+        href="css/animate.css%2bowl.carousel.min.css%2bowl.theme.default.min.css%2bmagnific-popup.css%2bflaticon.css%2bstyle.css.pagespeed.cc.tVkclJh8gl.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="IMAGES/favicon.png" type="image/x-icon">
+    <style>
+        .gallery-section {
+            position: relative;
+            padding: 0px 0px 130px;
+        }
+
+        .gallery-section .btn-box {
+            margin-top: 40px;
+        }
+
+        .gallery-section .outer-section {
+            position: relative;
+            padding: 0px 60px;
+        }
+
+        .gallery-section .filters {
+            margin-top: 80px;
+            margin-bottom: 3rem;
+        }
+
+        .gallery-section .filters .filter-tabs {
+            position: relative;
+        }
+
+        .gallery-section .filters li {
+            position: relative;
+            display: inline-block;
+            color: #777777;
+            padding: 0px 0px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 400;
+            margin-left: 35px;
+            padding-bottom: 5px;
+            transition: all 300ms ease;
+            -webkit-transition: all 300ms ease;
+            -ms-transition: all 300ms ease;
+            -o-transition: all 300ms ease;
+        }
+
+        .gallery-section .filters .filter:after {
+            position: absolute;
+            content: '';
+            left: 0px;
+            bottom: 0px;
+            width: 0%;
+            opacity: 0;
+            height: 2px;
+            background-color: #f83c15;
+            transition: all 600ms ease;
+            -webkit-transition: all 600ms ease;
+            -ms-transition: all 600ms ease;
+            -o-transition: all 600ms ease;
+        }
+
+        .gallery-section .filters .filter.active,
+        .gallery-section .filters .filter:hover {
+            color: #0028a2;
+        }
+
+        .gallery-section .filters .filter.active::after,
+        .gallery-section .filters .filter:hover::after {
+            opacity: 1;
+            width: 100%;
+        }
+
+        .gallery-section .gallery-item {
+            margin-bottom: 40px;
+        }
+
+        .gallery-block.mix {
+            display: none;
+        }
+
+        /* Gallery Item */
+
+        .gallery-block {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .gallery-block .inner-box {
+            position: relative;
+            width: 100%;
+        }
+
+        .gallery-block .image-box {
+            position: relative;
+            display: block;
+            margin: 0px;
+            overflow: hidden;
+            border-radius: 8px;
+        }
+
+        .gallery-block .image-box img {
+            position: relative;
+            display: block;
+            width: 100%;
+        }
+
+        .gallery-block .overlay-box {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            color: #ffffff;
+            text-align: center;
+            transition: all 900ms ease;
+            -moz-transition: all 900ms ease;
+            -webkit-transition: all 900ms ease;
+            -ms-transition: all 900ms ease;
+            -o-transition: all 900ms ease;
+            -moz-transform: rotateY(-180deg);
+            -webkit-transform: rotateY(-180deg);
+            -ms-transform: rotateY(-180deg);
+            -o-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+            /* background-image: -ms-linear-gradient(top, yellow 0%, yellow 100%);
+            background-image: -moz-linear-gradient(top, yellow 0%, yellow 100%);
+            background-image: -o-linear-gradient(top, yellow 0%, yellow 100%);
+            background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, yellow), color-stop(100, yellow));
+            background-image: -webkit-linear-gradient(top, yellow 0%, yellow 100%);
+            background-image: linear-gradient(to bottom, yellow 0%, yellow 100%); */
+            background-color: #023e8a;
+        }
+
+        .gallery-block .inner-box:hover .overlay-box {
+            opacity: 0.8;
+            -moz-transform: rotateY(0deg);
+            -webkit-transform: rotateY(0deg);
+            -ms-transform: rotateY(0deg);
+            -o-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+            visibility: visible;
+        }
+
+        .gallery-block .overlay-inner {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            display: table;
+            vertical-align: middle;
+            padding: 10px 0px;
+        }
+
+        .gallery-block .overlay-inner .content {
+            position: relative;
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        .gallery-block .overlay-box h4 {
+            position: relative;
+            font-weight: 600;
+            line-height: 1.4em;
+            margin-bottom: 12px;
+        }
+
+        .gallery-block .overlay-box h4 a {
+            position: relative;
+            color: #ffffff;
+        }
+
+        .gallery-block .overlay-box .category {
+            position: relative;
+            color: #ffffff;
+            font-size: 16px;
+            margin-bottom: 18px;
+        }
+
+        .gallery-block .overlay-inner .link {
+            position: relative;
+            width: 50px;
+            height: 50px;
+            font-size: 18px;
+            color: #ffffff;
+            line-height: 50px;
+            margin: 0px 3px;
+            font-weight: 400;
+            text-align: center;
+            border-radius: 50px;
+            display: inline-block;
+            background-color: #7148eb;
+            transition: all 300ms ease;
+            -webkit-transition: all 300ms ease;
+            -ms-transition: all 300ms ease;
+            -o-transition: all 300ms ease;
+        }
+
+        .gallery-block .overlay-inner .link .icon {
+            position: relative;
+            z-index: 1;
+        }
+
+        .gallery-block .overlay-inner .link:hover {
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.90);
+        }
+
+        .gallery-page-section .filters {
+            text-align: center;
+        }
+
+        @media only screen and (max-width: 1023px) {
+            .gallery-section .filters li {
+                margin-left: 0px;
+                margin-right: 20px;
+            }
+        }
+
+        #nav-buttons {
+            display: none;
+        }
+
+        /* NAVBAR CSS */
+        /* .ftco-navbar-light .logo-b {
+            display: none;
+        }
+        
+        .ftco-navbar-light.scrolled .logo-w {
+            display: inline;
+        }
+        
+        .ftco-navbar-light.scrolled .logo-b {
+            display: inline;
+        }
+        
+        .ftco-navbar-light.scrolled .logo-w {
+            display: none;
+        }
+        
+        .ftco-navbar-light {
+            background: transparent !important;
+            position: absolute;
+            top: 0px;
+            left: 0;
+            right: 0;
+            z-index: 3;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            margin-bottom: 0;
+            padding-bottom: 0;
+            padding-top: 0;
+        }
+        
+        @media (max-width: 991.98px) {
+            .ftco-navbar-light {
+                background: #03045e !important;
+                position: relative;
+                top: 0;
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+        }
+        
+        .ftco-navbar-light .container {
+            width: 1110px;
+            margin: 0 auto;
+            padding: 0;
+        }
+        
+        .ftco-navbar-light .navbar-brand {
+            color: #fff;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+        }
+        
+        @media (max-width: 991.98px) {
+            .ftco-navbar-light .navbar-brand {
+                color: #fff;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                background: transparent;
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+        
+        .ftco-navbar-light .navbar-nav {
+            margin-right: 1em;
+        }
+        
+        @media (max-width: 991.98px) {
+            .ftco-navbar-light .navbar-nav {
+                padding-bottom: 20px;
+                margin-right: 0;
+            }
+        }
+        
+        .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
+            font-size: 15px;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: #fff;
+            font-weight: 500;
+            
+            opacity: 1 !important;
+            border: none;
+        }
+        
+        .ftco-navbar-light .navbar-nav>.nav-item>.nav-link:hover,
+        .ftco-navbar-light .navbar-nav>.nav-item>.nav-link:focus {
+            color: #fff;
+        }
+        
+        @media (max-width: 991.98px) {
+            .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
+                padding-left: 0;
+                padding-right: 0;
+                padding-bottom: 0;
+                padding-top: 0.3rem !important;
+                padding-bottom: 0.3rem !important;
+                border: none;
+                color: #fff;
+            }
+        }
+        
+        .ftco-navbar-light .navbar-nav>.nav-item .dropdown-menu {
+            border: none;
+            background: #fff;
+            -webkit-box-shadow: 0px 10px 34px -20px rgba(0, 0, 0, 0.41);
+            -moz-box-shadow: 0px 10px 34px -20px rgba(0, 0, 0, 0.41);
+            box-shadow: 0px 10px 34px -20px rgba(0, 0, 0, 0.41);
+        }
+        
+        .ftco-navbar-light .navbar-nav>.nav-item.active>a {
+            color: #28df99;
+        }
+        
+        @media (max-width: 991.98px) {
+            .ftco-navbar-light .navbar-nav>.nav-item.active>a {
+                color: #0077b6;
+            }
+        }
+        
+        .ftco-navbar-light .navbar-toggler {
+            border: none;
+            color: rgba(255, 255, 255, 0.5) !important;
+            cursor: pointer;
+            padding-right: 0;
+            text-transform: uppercase;
+            font-size: 16px;
+            letter-spacing: .1em;
+        }
+        
+        .ftco-navbar-light .navbar-toggler:hover,
+        .ftco-navbar-light .navbar-toggler:focus {
+            text-decoration: none;
+            color: #0077b6;
+            outline: none !important;
+        }
+        
+        .ftco-navbar-light.scrolled {
+            position: fixed;
+            right: 0;
+            left: 0;
+            top: 0;
+            margin-top: -130px;
+            background: #fff !important;
+            -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+            padding: 0;
+        }
+        
+        .uday_gallery {
+            background-color: #03045e !important;
+        }
+        
+        *,
+         ::after,
+         ::before {
+            box-sizing: 0;
+        } */
+
+        .botn {
+            cursor: pointer;
+            margin-top: 1.5rem;
+            padding: 0.75rem 1.5rem;
+            font-size: 0.65rem;
+            font-weight: bold;
+            letter-spacing: 0.025rem;
+            text-transform: uppercase;
+            color: white;
+            background-color: black;
+            border: none;
+            background-image: linear-gradient(to right, #03045e, #023e8a, #0077b6);
+        }
+
+        .botn:hover {
+            color: black;
+            background-image: linear-gradient(to right, #caf0f8, #90e0ee, #00b4d8);
+            background-color: #0d0d0d;
+        }
+
+        #hero-wrap .hero-container {
+            background-image: url("IMAGES/Team_Images/2023_team/ACM\ Group.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 45vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        #hero-wrap a {
+            color: inherit;
+        }
+
+        #hero-wrap .hero-container .page-title {
+            font-size: 3rem;
+            color: white;
+            letter-spacing: 2.5px;
+            line-height: 40px;
+            margin-bottom: 20px;
+        }
+
+        #hero-wrap .hero-container .page-title span {
+            font-size: 1.5rem;
+        }
+
+        .main {
+            height: 100vh;
+        }
+
+        @media screen and (max-width: 1000px) {
+            #hero-wrap .hero-container {
+                height: 15vh;
+                margin-bottom: 0%;
+            }
+        }
+
+        @media screen and (max-width: 500px) {
+            #hero-wrap .hero-container .page-title {
+                font-size: 1.7rem;
+                line-height: 35px;
+            }
+
+            #hero-wrap .hero-container span {
+                font-size: 1rem;
+            }
+
+            #hero-wrap .hero-container {
+                height: 12vh;
+                margin-bottom: 0%;
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+            #hero-wrap .hero-container {
+                height: 12vh;
+                margin-bottom: 0%;
+            }
+        }
+
+        @media screen and (max-width: 360px) {
+            #hero-wrap .hero-container {
+                height: 12vh;
+                margin-bottom: 0%;
+            }
+        }
+
+        #hero-wrap .hero-container span {
+            font-size: 1rem;
+        }
+
+
+        .ftco-navbar-light .logo-b {
+            display: none;
+        }
+
+        .ftco-navbar-light.scrolled .logo-w {
+            display: inline;
+        }
+
+        .ftco-navbar-light.scrolled .logo-b {
+            display: inline;
+        }
+
+        .ftco-navbar-light.scrolled .logo-w {
+            display: none;
+        }
+
+        .botnav {
+            cursor: pointer;
+            margin-top: 0.5rem;
+            padding: 0.85rem 1.6rem;
+            font-size: 0.85rem;
+            font-weight: bold;
+            letter-spacing: 0.025rem;
+            text-transform: uppercase;
+            color: white;
+            background-color: black;
+            border: none;
+            background-image: linear-gradient(to right, #023e8a, #0077b6);
+            display: inline;
+        }
+
+        .botnav:hover {
+            color: black;
+            background-image: linear-gradient(to bottom, #0096c7, #48cae4);
+        }
+
+        .ftco-navbar-light .logo-w {
+            display: inline;
+            max-width: 90% !important;
+            max-height: auto;
+        }
+
+        .ftco-navbar-light.scrolled .logo-b {
+            display: inline;
+            max-width: 90% !important;
+            max-height: auto;
+        }
+
+        @media screen and (max-width: 768px) {
+            .botnav {
+                cursor: pointer;
+                margin-top: 1rem;
+                padding: 0.75rem 1.5rem;
+                font-size: 0.75rem;
+                font-weight: bold;
+                letter-spacing: 0.025rem;
+                text-transform: uppercase;
+                color: white;
+                background-color: black;
+                border: none;
+                background-image: linear-gradient(to right, #03045e, #023e8a, #0077b6);
+            }
+
+            .botnav:hover {
+                color: black;
+                background-image: linear-gradient(to right, #caf0f8, #90e0ee, #00b4d8);
+                background-color: #0d0d0d;
+            }
+
+            .ftco-navbar-light.scrolled .botnav {
+                margin-left: 5%;
+            }
+
+            .ftco-navbar-light .logo-w {
+                display: inline;
+                max-width: 55% !important;
+                max-height: auto;
+            }
+
+            .ftco-navbar-light.scrolled .logo-b {
+                display: inline;
+                max-width: 55% !important;
+                max-height: auto;
+            }
+        }
+
+        nav {
+            top: 0 !important;
+        }
+
+        .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
+            border-left: 0px
+        }
+
+        .uday_gallery {
+            background-color: #03045e !important;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar uday_gallery ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img class="logo-b" style="width: 55%;" src="IMAGES/ccet-acm-logo-website.png" alt="CCET">
+                <img class="logo-w" style="width: 55%;" src="IMAGES/ccet-acm-logo-website-white.png" alt="CCET">
+
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> Menu
+            </button>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item active"><a href="blog.html" class="nav-link">Gallery</a></li>
+                    <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li>
+                    <li class="nav-item"><a href="2021-team.html" class="nav-link">Team</a></li>
+                    <li class="nav-item"><a href="achievements.html" class="nav-link">Achievements</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="membership.html" target="blank" class="nav-link">Membership</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar uday_gallery ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <div class="navbar-brand">
+
+
+                <a href="index.html">
+                    <img class="logo-b" src="IMAGES/ccet-acm-logo-website.png" alt="CCET">
+                    <img class="logo-w" src="IMAGES/ccet-acm-logo-website-white.png" alt="CCET">
+
+                </a>
+                <button style="padding-left: 30%;" class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="oi oi-menu"></span> <i class="fas fa-bars fa-2x"></i>
+
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul style="font-family:'Roboto', Arial, sans-serif;" class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item active"><a href="gallery_new.html" class="nav-link">Gallery</a></li>
+                    <!-- <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li> -->
+                    <!--*********** copy ********** -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Events
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #00b4d8;">
+                            <a class="dropdown-item" href="events.html">Events</a>
+                            <a class="dropdown-item" href="competitions.html">Competitions</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Team
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #00b4d8;">
+                            <a class="dropdown-item" href="2023-team.html">Office Bearers</a>
+                            <a class="dropdown-item" href="Executive_Members.html">Executive Members</a>
+                            <a class="dropdown-item" href="Webmasters.html">Webmasters</a>
+                        </div>
+                    </li>
+                    <!--*********** copy ********** -->
+                    <li class="nav-item"><a href="achievements.html" class="nav-link">Achievements</a></li>
+                    <li class="nav-item"><a href="resources.html" class="nav-link">Resources</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="magazine/magazine.html" target="blank" class="nav-link">Magazine</a>
+                    </li>
+                    <li class="nav-item"><a href="acm-w.html"><button class="botnav">ACM<span
+                                    style="color: #0077b6;">_</span>W</button></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero-wrap">
+        <div class="hero-container">
+            <div class="container page-title">
+                <a style="font-weight: bolder !important;;margin-left: 0%;">GALLERY</a>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- <section style="overflow:hidden">
+        <img style="width: 100%;" src="IMAGES/Team_Images/team_image.jpeg" alt="">
+    </section> -->
+    <section class="gallery-section gallery-page-section">
+
+        <div class="outer-section">
+
+            <!-- MixitUp Galery -->
+
+            <div class="mixitup-gallery">
+
+                <div class="auto-container">
+
+
+
+                    <!--Filter-->
+
+                    <div class="filters clearfix">
+
+                        <ul class="filter-tabs filter-btns clearfix">
+
+                            <li class="active filter" data-role="button" data-filter="all">All</li>
+
+                            <li class="filter" data-role="button" data-filter=".coding">Coding</li>
+
+                            <li class="filter" data-role="button" data-filter=".recruitments">Recruitments</li>
+
+                            <li class="filter" data-role="button" data-filter=".web">Web &amp; Designing</li>
+
+                            <li class="filter" data-role="button" data-filter=".workshops">Workshops</li>
+
+
+
+                        </ul>
+
+
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="filter-list row clearfix">
+
+                    <div id="nav-buttons">
+
+                        <button style="position: fixed ; top: 50%; left: 0%;  z-index: 4;"
+                            class="w3-button w3-black w3-display-left" onclick="LEFT()">&#10094;</button>
+                        <button style="position: fixed ; top: 50%; right: 0%;  z-index: 4;"
+                            class="w3-button w3-black w3-display-right" onclick="RIGHT()">&#10095;</button>
+                    </div>
+
+                    <div id="modal01" class="w3-modal" style=" background-color: rgba(3, 4, 94, 0.9);"
+                        onclick="collapse(this)">
+                        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                        <div class="w3-modal-content w3-animate-zoom">
+                            <img id="img01" style="width:100%">
+                        </div>
+
+                    </div>
+
+
+                    <!-- Gallery Block-->
+
+                    <div class="gallery-block all mix col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img coding-img" src="IMAGES/Team Image.jpg" alt="Meetup"
+                                    style="height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner">
+
+                                        <div class="content" data-abc="IMAGES/Team Image.jpg" onclick="onClick_(this)"
+                                            style="cursor:pointer">
+
+                                            <div class="category">ACM Meet up-1 2021</div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Gallery Block-->
+
+                    <div class="gallery-block all mix col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img coding-img" src="IMAGES/Team_Images/Combined_ACM_ACM_W.jpeg"
+                                    alt="MeetupC" style="height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner">
+
+                                        <div class="content" data-abc="IMAGES/Team_Images/Combined_ACM_ACM_W.jpeg"
+                                            onclick="onClick_(this)" style="cursor:pointer">
+
+                                            <div class="category">ACM Meet up-1 2021</div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+
+
+
+                    <!-- Gallery Block-->
+
+                    <div class="gallery-block all mix workshops col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img coding-img"
+                                    src="IMAGES/Gallery_Images/WebsiteGallery/Workshops/Deep_Dive_DL.png"
+                                    alt="Deep_Dive_DL" style="height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner">
+
+                                        <div class="content"
+                                            data-abc="IMAGES/Gallery_Images/WebsiteGallery/Workshops/Deep_Dive_DL.png"
+                                            onclick="onClick_(this)" style="cursor:pointer">
+
+                                            <div class="category">Deep Dive into Deep Learning</div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Gallery Block-->
+
+                    <div class="gallery-block all mix workshops col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img coding-img"
+                                    src="IMAGES/Gallery_Images/WebsiteGallery/Workshops/Hacktober_2021.png"
+                                    alt="Hacktoberfest_2021" style="height: 250px; overflow: hidden;"
+                                    onclick="onClick(this)" class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner">
+
+                                        <div class="content"
+                                            data-abc="IMAGES/Gallery_Images/WebsiteGallery/Workshops/Hacktober_2021.png"
+                                            onclick="onClick_(this)" style="cursor:pointer">
+
+                                            <div class="category">Hactoberfest 2021</div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Gallery Block-->
+
+                    <div class="gallery-block all mix workshops col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img coding-img"
+                                    src="IMAGES/Gallery_Images/WebsiteGallery/Workshops/ML_Roadmap.png" alt="ML_Roadmap"
+                                    style="height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner">
+
+                                        <div class="content"
+                                            data-abc="IMAGES/Gallery_Images/WebsiteGallery/Workshops/ML_Roadmap.png"
+                                            onclick="onClick_(this)" style="cursor:pointer">
+
+                                            <div class="category">Roadmap to Machine Learning Algorithms</div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Gallery Block-->
+
+                    <div class="gallery-block all mix workshops col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img coding-img"
+                                    src="IMAGES/Gallery_Images/WebsiteGallery/Workshops/ML_Muskan_Navjot.jpeg"
+                                    alt="ML_Roadmap_2" style="height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner">
+
+                                        <div class="content"
+                                            data-abc="IMAGES/Gallery_Images/WebsiteGallery/Workshops/ML_Muskan_Navjot.jpeg"
+                                            onclick="onClick_(this)" style="cursor:pointer">
+
+                                            <div class="category">Roadmap to Machine Learning Algorithms</div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Gallery Block-->
+
+                    <div class="gallery-block all mix workshops col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img coding-img"
+                                    src="IMAGES/Gallery_Images/WebsiteGallery/Workshops/Future_Prospects.png"
+                                    alt="Future_Prospects" style="height: 250px; overflow: hidden;"
+                                    onclick="onClick(this)" class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner">
+
+                                        <div class="content"
+                                            data-abc="IMAGES/Gallery_Images/WebsiteGallery/Workshops/Future_Prospects.png"
+                                            onclick="onClick_(this)" style="cursor:pointer">
+
+                                            <div class="category">Future Prospects to Engineering Graduates for
+                                                Entrepreneurship and Startups</div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Gallery Block-->
+
+                    <div class="gallery-block all mix workshops col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img coding-img"
+                                    src="IMAGES/Gallery_Images/WebsiteGallery/Workshops/Making_Of_programming_Language.png"
+                                    alt="Making_Of_programming_Language" style="height: 250px; overflow: hidden;"
+                                    onclick="onClick(this)" class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner">
+
+                                        <div class="content"
+                                            data-abc="IMAGES/Gallery_Images/WebsiteGallery/Workshops/Making_Of_programming_Language.png"
+                                            onclick="onClick_(this)" style="cursor:pointer">
+
+                                            <div class="category">Making of Programming Language</div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Gallery Block 1-->
+
+                    <div class="gallery-block all mix coding col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img coding-img"
+                                    src="IMAGES/Gallery_Images/WebsiteGallery/PythonProgramming2021/1.png" alt=""
+                                    style="height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner">
+
+                                        <div class="content"
+                                            data-abc="IMAGES/Gallery_Images/WebsiteGallery/PythonProgramming2021/1.png"
+                                            onclick="onClick_(this)" style="cursor:pointer">
+
+                                            <div class="category">Python Programming 2021</div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Gallery Block 2-->
+
+                    <div class="gallery-block all mix web col-lg-4 col-md-6 col-sm-12" data-qq="abcd">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img web-img" src="IMAGES/Gallery_Images/WebsiteGallery/logodesign/1.png"
+                                    alt="" style="height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner">
+
+                                        <div class="content"
+                                            data-abc="IMAGES/Gallery_Images/WebsiteGallery/logodesign/1.png"
+                                            onclick="onClick_(this)" style="cursor:pointer">
+
+                                            <div class="category">Logo Design</div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Gallery Block 3-->
+
+                    <div class="gallery-block all mix col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img" src="IMAGES/Gallery_Images/WebsiteGallery/meetTheMentor/1.png"
+                                    alt="" style="height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner">
+
+                                        <div class="content"
+                                            data-abc="IMAGES/Gallery_Images/WebsiteGallery/meetTheMentor/1.png"
+                                            onclick="onClick_(this)" style="cursor:pointer">
+
+                                            <div class="category">Meet the Mentor 2021</div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                    <!-- Gallery Block 4-->
+
+                    <div class="gallery-block all mix recruitments col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img recruitments-img"
+                                    src="IMAGES/Gallery_Images/WebsiteGallery/Recruitments/2021-4.jpg"
+                                    style=" height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner">
+
+                                        <div class="content"
+                                            data-abc="IMAGES/Gallery_Images/WebsiteGallery/Recruitments/2021-4.jpg"
+                                            onclick="onClick_(this)" style="cursor:pointer">
+
+                                            <div class="category">Recruitments 2021</div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Gallery Block 5-->
+
+                    <div class="gallery-block all mix recruitments col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img recruitments-img"
+                                    src="IMAGES/Gallery_Images/WebsiteGallery/Recruitments/2021-3.JPG"
+                                    style=" height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner">
+
+                                        <div class="content"
+                                            data-abc="IMAGES/Gallery_Images/WebsiteGallery/Recruitments/2021-3.JPG"
+                                            onclick="onClick_(this)" style="cursor:pointer">
+
+                                            <div class="category">Recruitments 2021</div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Gallery Block 6-->
+
+                    <div class="gallery-block all mix recruitments col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img recruitments-img"
+                                    src="IMAGES/Gallery_Images/WebsiteGallery/Recruitments/2021-2.png" alt=""
+                                    style="height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner"
+                                        data-abc="IMAGES/Gallery_Images/WebsiteGallery/Recruitments/2021-2.png"
+                                        onclick="onClick_(this)" style="cursor:pointer">
+
+                                        <div class="content">
+
+                                            <div class="category">Recruitments 2021</div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Gallery Block 7-->
+
+                    <div class="gallery-block all mix recruitments col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img recruitments-img"
+                                    src="IMAGES/Gallery_Images/WebsiteGallery/Recruitments/2021-1.png" alt=""
+                                    style="height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner"
+                                        data-abc="IMAGES/Gallery_Images/WebsiteGallery/Recruitments/2021-1.png"
+                                        onclick="onClick_(this)" style="cursor:pointer">
+
+                                        <div class="content">
+
+                                            <div class="category">Recruitments 2021</div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+
+                    <!-- Gallery Block 8 1-->
+
+                    <div class="gallery-block all mix workshops col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img workshop-img"
+                                    src="IMAGES/Gallery_Images/WebsiteGallery/Workshops/hacktoberfest2020.jfif" alt=""
+                                    style="height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner"
+                                        data-abc="IMAGES/Gallery_Images/WebsiteGallery/Workshops/hacktoberfest2020.jfif"
+                                        onclick="onClick_(this)" style="cursor:pointer">
+
+
+                                        <div class="content">
+
+                                            <div class="category">Hacktoberfest- 2020</div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Gallery Block 9  2-->
+
+                    <div class="gallery-block all mix workshops col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img calss="all-img workshop-img"
+                                    src="IMAGES/Gallery_Images/WebsiteGallery/Workshops/deep learning from scratch.JPG"
+                                    alt="" style="height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner"
+                                        data-abc="IMAGES/Gallery_Images/WebsiteGallery/Workshops/deep learning from scratch.JPG"
+                                        onclick="onClick_(this)" style="cursor:pointer">
+
+                                        <div class="content">
+
+                                            <div class="category">Deep Learning From Scratch</div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                    <!-- Gallery Block 10  3-->
+
+                    <div class="gallery-block all mix workshops col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img workshop-img"
+                                    src="IMAGES/Gallery_Images/WebsiteGallery/Workshops/alexa.jfif" alt=""
+                                    style="height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner"
+                                        data-abc="IMAGES/Gallery_Images/WebsiteGallery/Workshops/alexa.jfif"
+                                        onclick="onClick_(this)" style="cursor:pointer">
+
+                                        <div class="content">
+
+                                            <div class="category">Building your first skill with Amazon Alexa</div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                    <!-- Gallery Block 11-->
+
+                    <div class="gallery-block all mix coding col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img coding-img" src="IMAGES/Gallery_Images/WebsiteGallery/Coding/1.jpg"
+                                    alt="" style="height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner"
+                                        data-abc="IMAGES/Gallery_Images/WebsiteGallery/Coding/1.jpg"
+                                        onclick="onClick_(this)" style="cursor:pointer">
+
+                                        <div class="content">
+
+                                            <div class="category">CSE Tech Quiz</div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                    <!-- Gallery Block 12-->
+
+                    <div class="gallery-block all mix recruitments col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img recruitments-img"
+                                    src="IMAGES/Gallery_Images/WebsiteGallery/Recruitments/1.png"
+                                    style="height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner"
+                                        data-abc="IMAGES/Gallery_Images/WebsiteGallery/Recruitments/1.png"
+                                        onclick="onClick_(this)" style="cursor:pointer">
+
+                                        <div class="content">
+
+
+
+                                            <div class="category">Recruitments</div>
+
+
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Gallery Block 13-->
+
+                    <div class="gallery-block all mix web col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img web-img"
+                                    src="IMAGES/Gallery_Images/WebsiteGallery/Web & Designing/Webappsattacks (1).jpg"
+                                    alt="" style="height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner"
+                                        data-abc="IMAGES/Gallery_Images/WebsiteGallery/Web & Designing/Webappsattacks (1).jpg"
+                                        onclick="onClick_(this)" style="cursor:pointer">
+
+                                        <div class="content">
+
+
+
+                                            <div class="category">Web App Attacks</div>
+
+
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Gallery Block 14  4-->
+
+                    <div class="gallery-block all mix workshops col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img workshop-img"
+                                    src="IMAGES/Gallery_Images/WebsiteGallery/Workshops/Portfolio (cocampus).jpg" alt=""
+                                    style="height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner"
+                                        data-abc="IMAGES/Gallery_Images/WebsiteGallery/Workshops/Portfolio (cocampus).jpg"
+                                        onclick="onClick_(this)" style="cursor:pointer">
+
+                                        <div class="content">
+
+
+
+                                            <div class="category">Portfolio (cocampus)</div>
+
+
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Gallery Block 15-->
+
+                    <div class="gallery-block all mix recruitments col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img recruitments-img"
+                                    src="IMAGES/Gallery_Images/WebsiteGallery/Recruitments/3.png" alt=""
+                                    style="height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner"
+                                        data-abc="IMAGES/Gallery_Images/WebsiteGallery/Recruitments/3.png"
+                                        onclick="onClick_(this)" style="cursor:pointer">
+
+                                        <div class="content">
+
+
+
+                                            <div class="category">ACM Recruitments</div>
+
+
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Gallery Block 16-->
+
+                    <div class="gallery-block all mix web col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img web-img"
+                                    src="IMAGES/Gallery_Images/WebsiteGallery/Web & Designing/Webappsattacks (2).jpg"
+                                    alt="" style="height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner"
+                                        data-abc="IMAGES/Gallery_Images/WebsiteGallery/Web & Designing/Webappsattacks (2).jpg"
+                                        onclick="onClick_(this)" style="cursor:pointer">
+
+                                        <div class="content">
+
+
+
+                                            <div class="category">Web Applications attack</div>
+
+
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Gallery Block 17-->
+
+                    <div class="gallery-block all mix coding col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img coding-img"
+                                    src="IMAGES/Gallery_Images/WebsiteGallery/Coding/hacktoberfest_1.jpg" alt=""
+                                    style="height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner"
+                                        data-abc="IMAGES/Gallery_Images/WebsiteGallery/Coding/hacktoberfest_1.jpg"
+                                        onclick="onClick_(this)" style="cursor:pointer">
+
+                                        <div class="content">
+
+
+
+                                            <div class="category">Hacktober Fest 2019</div>
+
+
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Gallery Block 18-->
+
+                    <div class="gallery-block all mix coding col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img coding-img"
+                                    src="IMAGES/Gallery_Images/WebsiteGallery/Coding/gsoc.jpg" alt=""
+                                    style="height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner"
+                                        data-abc="IMAGES/Gallery_Images/WebsiteGallery/Coding/gsoc.jpg"
+                                        onclick="onClick_(this)" style="cursor:pointer">
+
+                                        <div class="content">
+
+
+
+                                            <div class="category">GSoC</div>
+
+
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Gallery Block 19-->
+
+                    <div class="gallery-block all mix recruitments col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img recruitments-img"
+                                    src="IMAGES/Gallery_Images/WebsiteGallery/Recruitments/4.png" alt=""
+                                    style="height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner"
+                                        data-abc="IMAGES/Gallery_Images/WebsiteGallery/Recruitments/4.png"
+                                        onclick="onClick_(this)" style="cursor:pointer">
+
+                                        <div class="content">
+
+
+
+                                            <div class="category">ACM Recruitments</div>
+
+
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                    <!-- Gallery Block 20-->
+
+                    <div class="gallery-block all mix web col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img web-img"
+                                    src="IMAGES/Gallery_Images/WebsiteGallery/Web & Designing/Webappsattacks (3).jpg"
+                                    alt="" style="height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner"
+                                        data-abc="IMAGES/Gallery_Images/WebsiteGallery/Web & Designing/Webappsattacks (3).jpg"
+                                        onclick="onClick_(this)" style="cursor:pointer">
+
+                                        <div class="content">
+
+
+
+                                            <div class="category">Web Applications attack</div>
+
+
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Gallery Block 21-->
+
+                    <div class="gallery-block all mix coding col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img coding-img"
+                                    src="IMAGES/Gallery_Images/WebsiteGallery/Coding/cse_tech_2.jpg" alt=""
+                                    style="height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner"
+                                        data-abc="IMAGES/Gallery_Images/WebsiteGallery/Coding/cse_tech_2.jpg"
+                                        onclick="onClick_(this)" style="cursor:pointer">
+
+                                        <div class="content">
+
+                                            <div class="category">CSE Tech Quiz</div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                    <!-- Gallery Block 22-->
+
+                    <!-- <div class="gallery-block all mix recruitments col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img recruitments-img"
+                                    src="IMAGES/Gallery_Images/WebsiteGallery/Recruitments/3.png" alt=""
+                                    style="height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                               
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner"
+                                        data-abc="IMAGES/Gallery_Images/WebsiteGallery/Recruitments/3.png"
+                                        onclick="onClick_(this)" style="cursor:pointer">
+
+                                        <div class="content">
+
+
+
+                                            <div class="category">ACM Recruitments</div>
+
+
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div> -->
+
+
+
+                    <!-- Gallery Block 23-->
+
+                    <!-- <div class="gallery-block all mix web col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img web-img"
+                                    src="IMAGES/Gallery_Images/WebsiteGallery/Web & Designing/Webappsattacks (4).jpg"
+                                    style="height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner"
+                                        data-abc="IMAGES/Gallery_Images/WebsiteGallery/Web & Designing/Webappsattacks (4).jpg"
+                                        onclick="onClick_(this)" style="cursor:pointer">
+
+                                        <div class="content">
+
+
+
+                                            <div class="category">Web Applications attack</div>
+
+
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div> -->
+
+
+
+                    <!-- Gallery Block 24-->
+
+                    <div class="gallery-block all mix coding col-lg-4 col-md-6 col-sm-12">
+
+                        <div class="inner-box">
+
+                            <figure class="image-box">
+
+                                <img class="all-img coding-img"
+                                    src="IMAGES/Gallery_Images/WebsiteGallery/Coding/hacktoberfest_2.jpg" alt=""
+                                    style="height: 250px; overflow: hidden;" onclick="onClick(this)"
+                                    class="w3-hover-opacity">
+
+                                <!-- Overlay Box -->
+
+                                <div class="overlay-box">
+
+                                    <div class="overlay-inner"
+                                        data-abc="IMAGES/Gallery_Images/WebsiteGallery/Coding/hacktoberfest_2.jpg"
+                                        onclick="onClick_(this)" style="cursor:pointer">
+
+                                        <div class="content">
+
+                                            <div class="category">CSE Tech Quiz</div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </figure>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+
+    </section>
+    <!-- ********************************** FOOTER ************************************************* -->
+
+    <footer class="ftco-footer">
+        <div id="contact"></div>
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-sm-12 col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2 logo">
+                            <a href="#"><img style="width: 40%;" src="IMAGES/ccet-acm-logo-website-white.png"
+                                    alt="CCET LOGO"></a>
+                        </h2>
+                        <p style="text-align: justify;">ACM boosts up the potential and talent, supporting the overall
+                            development needs of our
+                            students to facilitate a structured path from education to employment by providing a safe
+                            and supported space where creative talent and imagination
+                            can flourish in a caring environment.
+                        </p>
+                        <ul class="ftco-footer-social list-unstyled mt-2" style="margin-left: 0;">
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-youtube"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md">
+                    <div class="ftco-footer-widget mb-4 ml-md-4">
+                        <h2 class="ftco-heading-2" style="margin-left: 29%;">Explore</h2>
+                        <ul class="list-unstyled" style="padding-left: 80px;">
+                            <li class="nav-item h2_explore"><a href="acm-w.html" class="nav-link li_explore">ACM
+                                    W</a>
+                            </li>
+                            <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                            <li class="nav-item"><a href="2023-team.html" class="nav-link">Team</a></li>
+                            <li class="nav-item"><a href="achievements.html" class="nav-link">Achievements</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Contact US</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li>Chandigarh College of Engineering and Technology Degree Wing Sector - 26, Chandigarh
+                                </li>
+                                <br>
+                                <li><a href="https://www.ccet.ac.in">Website: www.ccet.ac.in</a></li>
+                                </li>
+                            </ul>
+                            <ul>
+                                <a href="Webmasters.html"><button class="botn">Webmasters</button></a>
+                                <a href="magazine/magazine.html"><button class="botn"
+                                        style="margin-left:30px;">Magazine</button></a>
+                            </ul>
+                            <ul>
+                                <a href="https://forms.gle/85BA4KQqeKkARQdx5" target="blank"><button class="botn">Get in
+                                        Touch</button></a>
+                            </ul>
+
+                            <!-- <ul style="display: inline;"  class="ftco-footer-social list-unstyled mt-2">
+                        <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="fa fa-youtube"></span></a></li>
+                    </ul> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h6 style="text-align:center;padding-bottom: 20px;">Copyright © 2021 All rights reserved | Designed and
+                Developed by CCET ACM
+                <span><a href="Webmasters.html">Website Team</a></span>
+            </h6>
+        </div>
+
+    </footer>
+
+
+    <!-- <?php include 'footer.php'?> -->
+
+    <!-- ******************************************** FOOTER END **************************************************** -->
+
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="#F96D00" />
+        </svg></div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js%2bpopper.min.js%2bbootstrap.min.js.pagespeed.jc.JASJvy2p6F.js"></script>
+    <script>
+        eval(mod_pagespeed_rofLaRKIL4);
+    </script>
+    <script>
+        eval(mod_pagespeed_O55HKXLZnL);
+    </script>
+    <script>
+        eval(mod_pagespeed_mukP_p5mwJ);
+    </script>
+    <script
+        src="js/jquery.easing.1.3.js%2bjquery.waypoints.min.js%2bjquery.stellar.min.js%2bowl.carousel.min.js.pagespeed.jc.YVh72QvDrB.js"></script>
+    <script>
+        eval(mod_pagespeed_5LBDxQvOMp);
+    </script>
+    <script>
+        eval(mod_pagespeed_men54686W3);
+    </script>
+    <script>
+        eval(mod_pagespeed_MTpE$V0lEy);
+    </script>
+    <script>
+        eval(mod_pagespeed_c_aV2CVVmg);
+    </script>
+    <script
+        src="js/jquery.magnific-popup.min.js%2bjquery.animateNumber.min.js%2bscrollax.min.js%2bgoogle-map.js%2bmain.js.pagespeed.jc.7Fhazwn6fd.js"></script>
+    <script>
+        eval(mod_pagespeed_bW87uRdxE$);
+    </script>
+    <script>
+        eval(mod_pagespeed_KI316L8Msq);
+    </script>
+    <script>
+        eval(mod_pagespeed_t39KiUcvzC);
+    </script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
+    <script>
+        eval(mod_pagespeed_lmdbQdpk6z);
+    </script>
+    <script>
+        eval(mod_pagespeed_TUbgfw69GQ);
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23581568-13');
+    </script>
+
+    <script>
+        var x;
+        var q = document.getElementsByClassName("all-img");
+        var y = document.getElementsByClassName("all-img coding-img");
+        var z = document.getElementsByClassName("all-img recruitments-img");
+        var u = document.getElementsByClassName("all-img workshop-img");
+        var b = document.getElementsByClassName("all-img web-img");
+        // alert(x[3].getAttribute("data-qq"));
+        i = 0;
+        alert(a[0].getAttribute("data-filter"));
+
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            document.getElementById("nav-buttons").style.display = "block";
+            for (let j = 0; j < x.length; j++) {
+                if (element.src.localeCompare(x[j].src) == 0) {
+                    i = j;
+                    break;
+                }
+            }
+        }
+
+
+        function onClick_(element) {
+
+            var a = document.getElementsByClassName("active filter");
+            var filter_class = a[0].getAttribute("data-filter");
+            if (filter_class == "all") {
+                x = q;
+            } else if (filter_class == ".coding") {
+                x = y;
+            } else if (filter_class == ".recruitments") {
+                x = z;
+            } else if (filter_class == ".workshops") {
+                x = u;
+            } else if (filter_class == ".web") {
+                x = b;
+            }
+
+
+            var add = element.getAttribute("data-abc");
+            document.getElementById("img01").setAttribute("src", add);
+            document.getElementById("modal01").style.display = "block";
+            document.getElementById("nav-buttons").style.display = "block";
+
+            for (let j = 0; j < x.length; j++) {
+                // const path = require('path');
+                // path1 = path.relative(x[j], add);
+                // alert(path1);
+                // alert(x[j].src);
+                // alert(document.getElementById("img01").getAttribute("src"));
+                var temp = document.getElementById("img01");
+                // alert(temp.src);
+                // alert(temp.src);
+                // alert(temp.src == x[j].src);
+                if (temp.src == x[j].src) {
+                    i = j;
+                    console.log(i);
+                    // alert(i);
+                    break;
+                }
+            }
+
+        }
+
+        function collapse(element) {
+            // alert(a[0].getAttribute("data-filter"));
+            element.style.display = 'none';
+            document.getElementById("nav-buttons").style.display = "none";
+        }
+
+
+
+        function LEFT() {
+            i--;
+            i = i % x.length;
+            document.getElementById("img01").src = x[i].src;
+            document.getElementById("modal01").style.display = "block";
+        }
+
+        function RIGHT() {
+            i++;
+            i = i % x.length;
+            // alert(i);
+            document.getElementById("img01").src = x[i].src;
+            document.getElementById("modal01").style.display = "block";
+        }
+    </script>
+
+
+    <script defer src="../../../static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon='{"rayId":"69470d4c9fc41b98","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.8.1","si":10}'></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/mixitup.js"></script>
+
+    <script src="js/script.js"></script>
+
+
+</body>
+
+<!-- Mirrored from preview.colorlib.com/theme/portech/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Sep 2021 20:37:59 GMT -->
+
+</html>
