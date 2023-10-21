@@ -409,54 +409,28 @@
         } */
 
 
-        #link-table1::before {
-            content: "An Exploratory Analysis on the Unfold of Fake News During COVID-19 Pandemic, in Smart Systems: Innovations in Computing, pages 259–272, Singapore, 2022. Springer Singapore. DOI - https://doi.org/10.1007/9 78-9 81-16-2877-1_24";
-        }
-
-        #link-table2::before {
-            content: "Evaluation of automatic parallelization algorithms to minimize speculative parallelism overheads,Journal of Discrete Mathematical Sciences Cryptography, Taylor & Francis Group. DOI - https://doi.org/10.1080/09720529.2021.1951435";
-        }
-
-        #link-table3::before {
-            content: "Rashandeep Singh, Kriti Aggarwal, Dr. Gulshan Goyal";
-        }
-
-        #link-table4::before {
-            content: "Role of Social Media in Covid-19 Pandemic: A literature review";
-        }
-
-        #link-table5::before {
-            content: "Predicting Catastrophic events using Machine Learning models for Natural Language Processing";
-        }
-
-        @media screen and (max-width:768px) {
-            #link-table1::before {
-                content: "An Exploratory Analysis on the Unfold of Fake News During COVID-19 Pandemic, in Smart Systems: Innovations in Computing, pages 259–272, Singapore, 2022. Springer Singapore. DOI -https://doi.or g/10.1007/9 78-9 81-16-2877-1_24";
-            }
-
-            #link-table2::before {
-                content: "Evaluation of automatic parallelization algorithms to minimize speculative parallelism overheads, Journal of Discrete Mathematical Sciences Cryptography, Taylor & Francis Group. DOI - https://doi.org/ 10.1080/09720 529.2021.195 1435";
-            }
-
-            #link-table3::before {
-                content: "Rashan-deep Singh, Kriti Aggarwal, Dr. Gulshan Goyal";
-            }
-
-            #link-table4::before {
-                content: "Role of Social Media in Covid-19 Pandemic: A literature review";
-            }
-
-            #link-table5::before {
-                content: "Predicting Catastrophic events using Machine Learning models for Natural Language Processing";
-            }
-
-        }
-
         @media screen and (max-width:410px) {
             body {
                 width: 130%;
             }
         }
+
+        .panel, .panel_1{
+            display: none;
+         }
+         
+        .papers_btn, .papers_btn_1{
+            border: none;
+            background-color: lightgray;
+            color: #0077b6;
+            padding: 5px 10px;
+            margin: 5px 0px;
+        }
+        .active{
+            color: white;
+            background-color: #0077b6;
+        }
+        
     </style>
 
 </head>
@@ -543,7 +517,6 @@
                 <div class="heading-section heading-section-white ftco-animate text-center">
                     <h2>Intelligent Computing and Research Group (ICRG) </h2><br>
                     <h4><strong>A CCET ACM Initiative</strong></h4><br>
-
                     <p
                         style="margin-bottom: 2em;text-align: justify;color: black;font-size: larger; padding-left: 40px; padding-right: 40px;">
                         CCET ACM Student
@@ -603,6 +576,208 @@
                             </div>
                         </div>
                     </div>
+                    
+                    <div class="col-md-3 ftco-animate d-flex">
+                        <!--    LEAVE EMPTY     -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="container">
+    <button class="papers_btn" onclick="showContent(1)">Journal Paper</button>
+    <button class="papers_btn" onclick="showContent(2)">Book/Book Chapters</button>
+    <button class="papers_btn" onclick="showContent(3)">Conference Paper</button>
+
+    <div id="content1" class="panel">
+        <section class="container" style="padding: 0px;">
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr style="background-color: #1d2736;color: white;">
+                            <th scope="col">Year</th>
+                            <th scope="col">Title</th>
+                            <th scope="col">Author</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">2023</th>
+                            <td>Evaluating the Sustainable COVID-19 Vaccination Framework of India Using Recurrent Neural Networks</td>
+                            <td>Anshul Gupta, Dr. Sunil K. Singh, Brij B Gupta, Muskaan Chopra, Shabeg Singh Gill</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2022</th>
+                            <td>Analysis & Prognosis of Sustainable Development Goals using Big Data-based Approach during COVID-19 Pandemic</td>
+                            <td>Muskaan Chopra, Dr. Sunil K. Singh, Anshul Gupta, Kriti Aggarwal, Brij Gupta, Francesco Colace</td>
+                        </tr>    
+                        <tr>
+                            <th scope="row">2022</th>
+                            <td>An efficient hardware supported and parallelization architecture for intelligent systems to overcome speculative overheads</td>
+                            <td>Sudhakar Kumar, Dr. Sunil K. Singh, Naveen Aggarwal, Brij B Gupta, Wadee Alhalabi, Shahab S Band</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2022</th>
+                            <td>Evolution of the Web 3.0: History and the Future</td>
+                            <td>Devashish Gupta, Dr. Sunil K. Singh</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2022</th>
+                            <td>Secure Internet of Behavior (IOB): Challenges and Future Directions.</td>
+                            <td>SIDDHARTH SINGH Khati, Dr. Sunil K. Singh, AKASH Sharma</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2022</th>
+                            <td>A Comparative Study of Generative Adversarial Networks for Text-to-Image Synthesis</td>
+                            <td>Muskaan Chopra, Dr. Sunil K. Singh, Akhil Sharma, Shabeg Singh Gill</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2022</th>
+                            <td>Deep Learning in Robotics for Strengthening Industry 4.0.: Opportunities, Challenges and Future Directions</td>
+                            <td>Kriti Aggarwal, Dr. Sunil K. Singh, Muskaan Chopra, Sudhakar Kumar, Francesco Colace</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2021</th>
+                            <td>Evaluation of automatic parallelization algorithms to minimize speculative parallelism overheads: An experiment</td>
+                            <td>Sudhakar Kumar, Dr. Sunil K. Singh, Naveen Aggarwal, Kriti Aggarwal</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+    
+        </section>
+    </div>
+    <div id="content2" class="panel">
+        <section class="container" style="padding: 0px;">
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr style="background-color: #1d2736;color: white;">
+                            <th scope="col">Year</th>
+                            <th scope="col">Title</th>
+                            <th scope="col">Author</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">2023</th>
+                            <td>Impact of Artificial Intelligence and the Internet of Things in Modern Times and Hereafter: An Investigative Analysis</td>
+                            <td>Anshul Gupta, Sunil Kr Singh, Muskaan Chopra</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2023</th>
+                            <td>A Novel Transfer Learning-Based Model for Ultrasound Breast Cancer Image Classification</td>
+                            <td>Saksham Gupta, Satvik Agrawal, Dr. Sunil K. Singh, Sudhakar Kumar</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2022</th>
+                            <td>SDN-Aided Edge Computing-Enabled AI for IoT and Smart Cities</td>
+                            <td>Rashandeep Singh, Dr. Sunil K. Singh, Sudhakar Kumar, Shabeg Singh Gill</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2022</th>
+                            <td>An Inquisitive Prospect on the Shift Toward Online Media, Before, During, and After the COVID-19 Pandemic: A Technological Analysis</td>
+                            <td>Anshul Gupta, Dr. Sunil K. Singh, Muskaan Chopra, Shabeg Singh Gill</td>
+                        </tr>    
+                        <tr>
+                            <th scope="row">2022</th>
+                            <td>Role of Social Media in the COVID-19 Pandemic: A Literature Review</td>
+                            <td>Kriti Aggarwal, Dr. Sunil K. Singh, Muskaan Chopra, Sudhakar Kumar</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2022</th>
+                            <td>Predicting Catastrophic Events Using Machine Learning Models for Natural Language Processing</td>
+                            <td>Muskaan Chopra, Dr. Sunil K. Singh, Kriti Aggarwal, Anshul Gupta</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+    
+        </section>
+    </div>
+    <div id="content3" class="panel">
+        <section class="container" style="padding: 0px;">
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr style="background-color: #1d2736;color: white;">
+                            <th scope="col">Year</th>
+                            <th scope="col">Title</th>
+                            <th scope="col">Author</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">2023</th>
+                            <td>Fuzzy Based Clustering of Consumers' Big Data in Industrial Applications</td>
+                            <td>Akash Sharma, Dr. Sunil K. Singh, Eshita Badwal, Sudhakar Kumar, Brij B Gupta, Varsha Arya, Kwok Tai Chui, Domenico Santaniello</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2022</th>
+                            <td>Efficient Loop Unrolling Factor Prediction Algorithm using Machine Learning Models</td>
+                            <td>Inderpreet Singh, Dr. Sunil K. Singh, Rashandeep Singh, Sudhakar Kumar</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2022</th>
+                            <td>Assess and Analysis Covid-19 Immunization Process: A Data Science Approach to make India self-reliant and safe</td>
+                            <td>Muskaan Chopra, Dr. Sunil K. Singh, Gopal Mengi, Devashish Gupta</td>
+                        </tr>    
+                        <tr>
+                            <th scope="row">2022</th>
+                            <td>Impact and Usability of Artificial Intelligence in Manufacturing workflow to empower Industry 4.0</td>
+                            <td>Muskaan Chopra, Dr. Sunil K. Singh, Sidharth Sharma, Deepak Mahto</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2022</th>
+                            <td>Efficient speculative parallelization architecture for overcoming speculation overheads</td>
+                            <td>Sudhakar Kumar, Dr. Sunil K. Singh, Naveen Aggarwal, Kriti Aggarwal</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2022</th>
+                            <td>Exploring Convolutional Neural Network in Computer Vision based Image Classification</td>
+                            <td>Parnit Kaur, Dr. Sunil K. Singh, Inderpreet Singh, Sudhakar Kumar</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2022</th>
+                            <td>Security of Android Banking Mobile Apps: Challenges and Opportunities</td>
+                            <td>Akash Sharma, Dr. Sunil K. Singh, Sudhakar Kumar, Anureet Chhabra, Saksham Gupta</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2022</th>
+                            <td>Sustainable Framework for Metaverse Security and Privacy: Opportunities and Challenges</td>
+                            <td>Manraj Singh, Dr. Sunil K. Singh, Sudhakar Kumar, Uday Madan, Tamanna Maan</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2021</th>
+                            <td>Automated Machine Learning (AutoML): The Future of Computational Intelligence</td>
+                            <td>Gopal Mengi, Dr. Sunil K. Singh, Sudhakar Kumar, Deepak Mahto, Anamika Sharma</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2021</th>
+                            <td>Dropout-VGG based Convolutional Neural Network for Traffic Sign Categorization</td>
+                            <td>Inderpreet Singh, Dr. Sunil K. Singh, Sudhakar Kumar, Kriti Aggarwal</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    
+        </section>
+    </div>
+    </section>
+    
+    <section class="ftco-section bg-darken">
+        <div class="container main">
+            <div class="col-md-12">
+                <div class="row" style="justify-content: center;">
+                    <div class="col-md-3 coco-animate d-flex">
+                        <!--    LEAVE EMPTY     -->
+                    </div>
                     <div class="col-md-3 ftco-animate d-flex">
                         <div class="staff">
                             <div class="img-wrap d-flex align-items-stretch">
@@ -640,243 +815,6 @@
                     <div class="col-md-3 ftco-animate d-flex">
                         <!--    LEAVE EMPTY     -->
                     </div>
-                    <!-- <div class="col-md-3 coco-animate d-flex">
-                        <div class="staff">
-                            <div class="img-wrap d-flex align-items-stretch">
-                                <div class="img align-self-stretch"
-                                    style="background-image:url(IMAGES/research-page/Anshul_Gupta.jpg)">
-                                </div>
-                            </div>
-                            <div class="text pt-3 pb-4 text-center">
-                                <h3>Anshul Gupta</h3>
-                                <span class="position">UG Scholar<br>CCET,
-                                    Chandigarh<br>Computer Sci.
-                                    & Eng. Dept.<br>Orcid ID: 0000-0003-0408-4072</span>
-                                <div class="faded">
-                                    <ul class="ftco-social text-center">
-                                        <li class="ftco-animate"><a href="http://github.com/anshulg954" target="_blank"
-                                                class="d-flex align-items-center justify-content-center"
-                                                style="padding-left: 0px !important;"><span
-                                                    class="fa fa-github"></span></a></li>
-                                        <li class="ftco-animate"><a href="http://linkedin.in/in/anshulg954"
-                                                target="_blank" class="d-flex align-items-center justify-content-center"
-                                                style="padding-left: 0px !important;"><span
-                                                    class="fa fa-linkedin"></span></a></li>
-                                        <li class="ftco-animate"><a href="mailto:anshulg954@outlook.com" target="_blank"
-                                                class="d-flex align-items-center justify-content-center"
-                                                style="padding-left: 0px !important;"> <span
-                                                    class="fa fa-envelope"></span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- <div class="col-md-3 coco-animate d-flex">
-                        <div class="staff">
-                            <div class="img-wrap d-flex align-items-stretch">
-                                <div class="img align-self-stretch"
-                                    style="background-image:url(IMAGES/Team_Images/2020_team/inderpreet-01.png)">
-                                </div>
-                            </div>
-                            <div class="text pt-3 pb-4 text-center">
-                                <h3>Inderpreet Singh</h3>
-                                <span class="position">UG Scholar<br>CCET,
-                                    Chandigarh<br>Computer Sci.
-                                    & Eng. Dept.<br>Orcid ID: 0000-0002-3834-025X</span>
-                                <div class="faded">
-                                    <ul class="ftco-social text-center">
-                                        <li class="ftco-animate"><a href="https://github.com/CO18325" target="_blank"
-                                                class="d-flex align-items-center justify-content-center"
-                                                style="padding-left: 0px !important;"><span
-                                                    class="fa fa-github"></span></a></li>
-                                        <li class="ftco-animate"><a
-                                                href="https://www.linkedin.com/in/inderpreet-singh-a32816169/"
-                                                target="_blank" class="d-flex align-items-center justify-content-center"
-                                                style="padding-left: 0px !important;"><span
-                                                    class="fa fa-linkedin"></span></a></li>
-                                        <li class="ftco-animate"><a href="mailto:inderpreet221099@gmail.com"
-                                                target="_blank" class="d-flex align-items-center justify-content-center"
-                                                style="padding-left: 0px !important;"> <span
-                                                    class="fa fa-envelope"></span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- <div class="col-md-3 coco-animate d-flex">
-                        <div class="staff">
-                            <div class="img-wrap d-flex align-items-stretch">
-                                <div class="img align-self-stretch"
-                                    style="background-image:url(IMAGES/research-page/Rashandeep\ Singh\ -\ Rashandeep\ Singh.jpg)">
-                                </div>
-                            </div>
-                            <div class="text pt-3 pb-4 text-center">
-                                <h3>Rashandeep Singh</h3>
-                                <span class="position">UG Scholar<br>CCET,
-                                    Chandigarh<br>Computer Sci.
-                                    & Eng. Dept.<br>Orcid ID: 0000-0003-4350-6434</span>
-                                <div class="faded">
-                                    <ul class="ftco-social text-center">
-                                        <li class="ftco-animate"><a href="https://github.com/Rashandeep" target="_blank"
-                                                class="d-flex align-items-center justify-content-center"
-                                                style="padding-left: 0px !important;"><span
-                                                    class="fa fa-github"></span></a></li>
-                                        <li class="ftco-animate"><a
-                                                href="https://www.linkedin.com/in/rashandeep-singh-892212180/"
-                                                target="_blank" class="d-flex align-items-center justify-content-center"
-                                                style="padding-left: 0px !important;"><span
-                                                    class="fa fa-linkedin"></span></a></li>
-                                        <li class="ftco-animate"><a href="mailto:rashandeepsingh@gmail.com"
-                                                target="_blank" class="d-flex align-items-center justify-content-center"
-                                                style="padding-left: 0px !important;"> <span
-                                                    class="fa fa-envelope"></span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- <div class="col-md-3 coco-animate d-flex">
-                        <div class="staff">
-                            <div class="img-wrap d-flex align-items-stretch">
-                                <div class="img align-self-stretch"
-                                    style="background-image:url(IMAGES/research-page/MUSKAAN_CHOPRA.jpg)">
-                                </div>
-                            </div>
-                            <div class="text pt-3 pb-4 text-center">
-                                <h3>Muskaan Chopra</h3>
-                                <span class="position">UG Scholar<br>CCET,
-                                    Chandigarh<br>Computer Sci.
-                                    & Eng. Dept.<br>Orcid ID: 0000-0002-7672-9186</span>
-                                <div class="faded">
-                                    <ul class="ftco-social text-center">
-                                        <li class="ftco-animate"><a href="https://github.com/muskaan712" target="_blank"
-                                                class="d-flex align-items-center justify-content-center"
-                                                style="padding-left: 0px !important;"><span
-                                                    class="fa fa-github"></span></a></li>
-                                        <li class="ftco-animate"><a href="https://www.linkedin.com/in/muskaanchopra712/"
-                                                target="_blank" class="d-flex align-items-center justify-content-center"
-                                                style="padding-left: 0px !important;"><span
-                                                    class="fa fa-linkedin"></span></a></li>
-                                        <li class="ftco-animate"><a href="mailto:chopramuskaan47@gmail.com"
-                                                target="_blank" class="d-flex align-items-center justify-content-center"
-                                                style="padding-left: 0px !important;"> <span
-                                                    class="fa fa-envelope"></span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- <div class="col-md-3 coco-animate d-flex">
-                        <div class="staff">
-                            <div class="img-wrap d-flex align-items-stretch">
-                                <div class="img align-self-stretch"
-                                    style="background-image:url(IMAGES/research-page/KRITI_AGGARWAL.jpeg)">
-                                </div>
-                            </div>
-                            <div class="text pt-3 pb-4 text-center">
-                                <h3>Kriti Aggarwal</h3>
-                                <span class="position">UG Scholar<br>CCET,
-                                    Chandigarh<br>Computer Sci.
-                                    & Eng. Dept.<br>Orcid ID: 0000-0002-7415-0103</span>
-                                <div class="faded">
-                                    <ul class="ftco-social text-center">
-                                        <li class="ftco-animate"><a href="https://github.com/kri14" target="_blank"
-                                                class="d-flex align-items-center justify-content-center"
-                                                style="padding-left: 0px !important;"><span
-                                                    class="fa fa-github"></span></a></li>
-                                        <li class="ftco-animate"><a
-                                                href="https://www.linkedin.com/in/kriti-aggarwal-b372721a2/"
-                                                target="_blank" class="d-flex align-items-center justify-content-center"
-                                                style="padding-left: 0px !important;"><span
-                                                    class="fa fa-linkedin"></span></a></li>
-                                        <li class="ftco-animate"><a href="mailto:kritiaggarwwal@gmail.com"
-                                                target="_blank" class="d-flex align-items-center justify-content-center"
-                                                style="padding-left: 0px !important;"> <span
-                                                    class="fa fa-envelope"></span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- <div class="col-md-3 coco-animate d-flex">
-                        <div class="staff">
-                            <div class="img-wrap d-flex align-items-stretch">
-                                <div class="img align-self-stretch"
-                                    style="background-image:url(IMAGES/research-page/Devashish\ -\ Devashish\ Gupta.png)">
-                                </div>
-                            </div>
-                            <div class="text pt-3 pb-4 text-center">
-                                <h3>Devashish Gupta</h3>
-                                <span class="position">UG Scholar<br>CCET,
-                                    Chandigarh<br>Computer Sci.
-                                    & Eng. Dept.<br>Orcid ID: 0000-0001-5288-6577</span>
-                                <div class="faded">
-                                    <ul class="ftco-social text-center">
-                                        <li class="ftco-animate"><a href="https://github.com/devashish-gupta09"
-                                                target="_blank" class="d-flex align-items-center justify-content-center"
-                                                style="padding-left: 0px !important;"><span
-                                                    class="fa fa-github"></span></a></li>
-                                        <li class="ftco-animate"><a
-                                                href="https://www.linkedin.com/in/devashish-gupta-066a16200/"
-                                                target="_blank" class="d-flex align-items-center justify-content-center"
-                                                style="padding-left: 0px !important;"><span
-                                                    class="fa fa-linkedin"></span></a></li>
-                                        <li class="ftco-animate"><a href="mailto:devashishgupta9822@gmail.com"
-                                                target="_blank" class="d-flex align-items-center justify-content-center"
-                                                style="padding-left: 0px !important;"> <span
-                                                    class="fa fa-envelope"></span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- <div class="col-md-3 coco-animate d-flex">
-                        <div class="staff">
-                            <div class="img-wrap d-flex align-items-stretch">
-                                <div class="img align-self-stretch"
-                                    style="background-image:url(IMAGES/research-page/Gopal\ -\ GOPAL\ MENGI\ CO203\ 20.jpg)">
-                                </div>
-                            </div>
-                            <div class="text pt-3 pb-4 text-center">
-                                <h3>Gopal Mengi</h3>
-                                <span class="position">UG Scholar<br>CCET,
-                                    Chandigarh<br>Computer Sci.
-                                    & Eng. Dept.<br>Orcid ID: 0000-0001-8702-642X</span>
-                                <div class="faded">
-                                    <ul class="ftco-social text-center">
-                                        <li class="ftco-animate"><a href="https://github.com/GopalMengi" target="_blank"
-                                                class="d-flex align-items-center justify-content-center"
-                                                style="padding-left: 0px !important;"><span
-                                                    class="fa fa-github"></span></a></li>
-                                        <li class="ftco-animate"><a
-                                                href="https://www.linkedin.com/in/gopal-mengi-273476137/"
-                                                target="_blank" class="d-flex align-items-center justify-content-center"
-                                                style="padding-left: 0px !important;"><span
-                                                    class="fa fa-linkedin"></span></a></li>
-                                        <li class="ftco-animate"><a href="mailto:official.mengi.gopal@gmail.com"
-                                                target="_blank" class="d-flex align-items-center justify-content-center"
-                                                style="padding-left: 0px !important;"> <span
-                                                    class="fa fa-envelope"></span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-
                 </div>
             </div>
         </div>
@@ -886,123 +824,142 @@
     </section>
 
     <section class="container">
-        <h3 style="text-align: center;">Accepted Research Projects</h3>
-        <div class="table-responsive">
-            <table class="table table-bordered table-hover">
-                <thead>
-                    <tr style="background-color: #1d2736;color: white;">
-                        <th scope="col">S.No.</th>
-                        <th scope="col">Title</th>
-                        <th scope="col">Author</th>
-                        <th scope="col">Month,Year</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Impact of Artificial Intelligence and Internet of Things in Modern Times and Hereafter: An
-                            Investigative Analysis</td>
-                        <td>Anshul Gupta, Dr. Sunil K Singh, Muskaan Chopra, Sudhakar Kumar</td>
-                        <td>February, 2021</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>An inquisitive prospect on the shift towards Online Form of Digital Media, before, during,
-                            and after the COVID-19 Pandemic: A Technological Analysis</td>
-                        <td>Anshul Gupta, Dr. Sunil K Singh, Muskaan Chopra, Shabeg Gill</td>
-                        <td>May, 2021</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>A comparative study of Generative Adversarial Networks for Text-to-Image synthesis</td>
-                        <td>Muskaan Chopra, Dr. Sunil K. Singh, Akhil Sharma</td>
-                        <td>August, 2021</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">4</th>
-                        <td>Dropout-VGG based Convolutional Neural Network for Traffic Sign Categorization</td>
-                        <td>Inderpreet Singh, Dr. Sunil K. Singh, Sudhakar Kumar and Kriti Aggarwal</td>
-                        <td>August, 2021</td>
-                    </tr>
-                    <!-- <tr>
-                        <th scope="row">5</th>
-                        <td>Predicting Catastrophic events using Machine Learning models for Natural Language Processing
-                        </td>
-                        <td>Muskaan Chopra, Dr. Sunil K. Singh, Kriti Aggarwal, Anshul Gupta</td>
-                        <td>September, 2021</td>
-                    </tr> -->
-                    <!-- <tr>
-                        <th scope="row">6</th>
-                        <td>Role of Social Media in Covid-19 Pandemic: A literature review</td>
-                        <td>Kriti Aggarwal, Dr. Sunil K. Singh, Muskaan Chopra, Sudhakar Kumar</td>
-                        <td>September, 2021</td>
-                    </tr> -->
-                    <tr>
-                        <th scope="row">5</th>
-                        <td>Predicting the future trends in COVID-19 Vaccination Drive of India using Statistical,
-                            Machine Learning, and Deep Learning Models</td>
-                        <td>Anshul Gupta, Dr. Sunil K. Singh, Muskaan Chopra</td>
-                        <td>September, 2021</td>
-                    </tr>
+        
+    <button class="papers_btn_1" onclick="showContent_1(4)">Journal Paper</button>
+    <button class="papers_btn_1" onclick="showContent_1(5)">Book/Book Chapters</button>
+    <button class="papers_btn_1" onclick="showContent_1(6)">Conference Paper</button>
 
-                </tbody>
-            </table>
-        </div>
+    <div id="content4" class="panel_1">
+        <section class="container" style="padding: 0px;">
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr style="background-color: #1d2736;color: white;">
+                            <th scope="col">Year</th>
+                            <th scope="col">Title</th>
+                            <th scope="col">Author</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">2022</th>
+                            <td>Mobile Cloud Computing and Sustainable Development: Opportunities, Challenges, and Future Directions</td>
+                            <td>Francisco José García Peñalvo, Akash Sharma, Anureet Chhabra, Sunil K Singh, Sudhakar Kumar, Varsha Arya, Akshat Gaurav</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2022</th>
+                            <td>Sustainable Stock Market Prediction Framework Using Machine Learning Models</td>
+                            <td>Francisco José García Peñalvo, Tamanna Maan, Sunil K Singh, Sudhakar Kumar, Varsha Arya, Kwok Tai Chui, Gaurav Pratap Singh</td>
+                        </tr>    
+                        <tr>
+                            <th scope="row">2022</th>
+                            <td>An efficient hardware supported and parallelization architecture for intelligent systems to overcome speculative overheads</td>
+                            <td>Sudhakar Kumar, Dr. Sunil K. Singh, Naveen Aggarwal, Brij B Gupta, Wadee Alhalabi, Shahab S Band</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2022</th>
+                            <td>Deep Learning in Robotics for Strengthening Industry 4.0.: Opportunities, Challenges and Future Directions</td>
+                            <td>Kriti Aggarwal, Dr. Sunil K. Singh, Muskaan Chopra, Sudhakar Kumar, Francesco Colace</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2021</th>
+                            <td>Evaluation of automatic parallelization algorithms to minimize speculative parallelism overheads: An experiment</td>
+                            <td>Sudhakar Kumar, Dr. Sunil K. Singh, Naveen Aggarwal, Kriti Aggarwal</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
 
+        </section>
+    </div>
+    <div id="content5" class="panel_1">
+        <section class="container" style="padding: 0px;">
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr style="background-color: #1d2736;color: white;">
+                            <th scope="col">Year</th>
+                            <th scope="col">Title</th>
+                            <th scope="col">Author</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">2023</th>
+                            <td>A Novel Transfer Learning-Based Model for Ultrasound Breast Cancer Image Classification</td>
+                            <td>Saksham Gupta, Satvik Agrawal, Dr. Sunil K. Singh, Sudhakar Kumar</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2022</th>
+                            <td>SDN-Aided Edge Computing-Enabled AI for IoT and Smart Cities</td>
+                            <td>Rashandeep Singh, Dr. Sunil K. Singh, Sudhakar Kumar, Shabeg Singh Gill</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2022</th>
+                            <td>Role of Social Media in the COVID-19 Pandemic: A Literature Review</td>
+                            <td>Kriti Aggarwal, Dr. Sunil K. Singh, Muskaan Chopra, Sudhakar Kumar</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+    </div>
+    <div id="content6" class="panel_1">
+        <section class="container" style="padding: 0px;">
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr style="background-color: #1d2736;color: white;">
+                            <th scope="col">Year</th>
+                            <th scope="col">Title</th>
+                            <th scope="col">Author</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">2023</th>
+                            <td>Fuzzy Based Clustering of Consumers' Big Data in Industrial Applications</td>
+                            <td>Akash Sharma, Dr. Sunil K. Singh, Eshita Badwal, Sudhakar Kumar, Brij B Gupta, Varsha Arya, Kwok Tai Chui, Domenico Santaniello</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2022</th>
+                            <td>Efficient Loop Unrolling Factor Prediction Algorithm using Machine Learning Models</td>
+                            <td>Inderpreet Singh, Dr. Sunil K. Singh, Rashandeep Singh, Sudhakar Kumar</td>
+                        </tr>   
+                        <tr>
+                            <th scope="row">2022</th>
+                            <td>Exploring Convolutional Neural Network in Computer Vision based Image Classification</td>
+                            <td>Parnit Kaur, Dr. Sunil K. Singh, Inderpreet Singh, Sudhakar Kumar</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2022</th>
+                            <td>Security of Android Banking Mobile Apps: Challenges and Opportunities</td>
+                            <td>Akash Sharma, Dr. Sunil K. Singh, Sudhakar Kumar, Anureet Chhabra, Saksham Gupta</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2021</th>
+                            <td>Automated Machine Learning (AutoML): The Future of Computational Intelligence</td>
+                            <td>Gopal Mengi, Dr. Sunil K. Singh, Sudhakar Kumar, Deepak Mahto, Anamika Sharma</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2021</th>
+                            <td>Influence and Establishment of Smart Transport in Smart Cities</td>
+                            <td>Muskaan Chopra, Sudhakar Kumar, Uday Madan, Soumya Sharma</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2021</th>
+                            <td>Dropout-VGG based Convolutional Neural Network for Traffic Sign Categorization</td>
+                            <td>Inderpreet Singh, Dr. Sunil K. Singh, Sudhakar Kumar, Kriti Aggarwal</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+    </div>
     </section>
-    <br>
-
-    <section class="container">
-        <h3 style="text-align: center;">Published Research Projects</h3>
-        <div class="table-responsive">
-            <table class="table table-bordered table-hover">
-                <thead>
-                    <tr style="background-color: #1d2736;color: white;">
-                        <th scope="col">S.No.</th>
-                        <th scope="col">Title</th>
-                        <th scope="col">Author</th>
-                        <th scope="col">Month,Year</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td id="link-table5"></td>
-                        <td>Muskaan Chopra, Dr. Sunil K. Singh, Kriti Aggarwal, Anshul Gupta</td>
-                        <td>November, 2021</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td id="link-table4"></td>
-                        <td>Kriti Aggarwal, Dr. Sunil K. Singh, Muskaan Chopra, Sudhakar Kumar</td>
-                        <td>November, 2021</td>
-                    </tr>
-                    <!--
-                    <tr>
-                        <th scope="row">3</th>
-                        <td id="link-table1"></td>
-                        <td>Anshul Gupta, Aayushi Bansal, Kanishk Mamgain, and Ankit Gupta</td>
-                        <td>September 4, 2021</td>
-                    </tr>-->
-                    <tr>
-                        <th scope="row">3</th>
-                        <td id="link-table2"></td>
-                        <td>Sudhakar Kumar, Dr. Sunil K. Singh, Dr. Naveen Aggarwal, Kriti Aggarwal</td>
-                        <td>September, 2021</td>
-                    </tr>
-                    <!--<tr>
-                        <th scope="row">5</th>
-                        <td>Recent Trends and Novel Smart Nurse Application of IoT enabled UAV System to Combat Covid-19, Journal of Education: Rabindrabharti University</td>
-                        <td id="link-table3"></td>
-                        <td>2021</td>
-                    </tr>-->
-
-                </tbody>
-            </table>
-        </div>
-
-    </section>
-
     <!-- <section class="container">
         <h3 style="text-align: center;">Accepted Research Projects</h3>
         <div class="table-responsive">
@@ -1029,7 +986,7 @@
                     <td>Evaluation of automatic parallelization algorithms to minimize speculative parallelism
                         overheads,Journal of Discrete Mathematical Sciences Cryptography, Taylor & Francis Group. D OI -
                         https://doi.org/10.1080/09720529.2021.1951435</td>
-                    <td>Sudhakar Kumar, Dr. Sunil K. Singh, Dr. Naveen Aggarwal, Kriti Aggarwal</td>
+                    <td>Sudhakar Kumar, Dr. Dr. Sunil K. Singh, Dr. Naveen Aggarwal, Kriti Aggarwal</td>
                     <td>September,2021</td>
                 </tr>
                 <tr>
@@ -1172,7 +1129,8 @@
         eval(mod_pagespeed_mukP_p5mwJ);
     </script>
     <script
-        src="js/jquery.easing.1.3.js%2bjquery.waypoints.min.js%2bjquery.stellar.min.js%2bowl.carousel.min.js.pagespeed.jc.YVh72QvDrB.js"></script>
+        src="js/jquery.easing.1.3.js%2bjquery.waypoints.min.js%2bjquery.stellar.min.js%2bowl.carousel.min.js.pagespeed.jc.YVh72QvDrB.js">
+    </script>
     <script>
         eval(mod_pagespeed_5LBDxQvOMp);
     </script>
@@ -1186,7 +1144,8 @@
         eval(mod_pagespeed_c_aV2CVVmg);
     </script>
     <script
-        src="js/jquery.magnific-popup.min.js%2bjquery.animateNumber.min.js%2bscrollax.min.js%2bgoogle-map.js%2bmain.js.pagespeed.jc.7Fhazwn6fd.js"></script>
+        src="js/jquery.magnific-popup.min.js%2bjquery.animateNumber.min.js%2bscrollax.min.js%2bgoogle-map.js%2bmain.js.pagespeed.jc.7Fhazwn6fd.js">
+    </script>
     <script>
         eval(mod_pagespeed_bW87uRdxE$);
     </script>
@@ -1197,7 +1156,8 @@
         eval(mod_pagespeed_t39KiUcvzC);
     </script>
     <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false">
+    </script>
     <script>
         eval(mod_pagespeed_lmdbQdpk6z);
     </script>
@@ -1205,7 +1165,9 @@
         eval(mod_pagespeed_TUbgfw69GQ);
     </script>
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13">
+
+    </script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -1217,7 +1179,63 @@
         gtag('config', 'UA-23581568-13');
     </script>
     <script defer src="../../../static.cloudflareinsights.com/beacon.min.js"
-        data-cf-beacon='{"rayId":"69470d4669111b6e","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.8.1","si":10}'></script>
+        data-cf-beacon='{"rayId":"69470d4669111b6e","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.8.1","si":10}'>
+    </script>
+
+    <script>
+        const buttons = document.querySelectorAll('.papers_btn');
+        const panels = document.querySelectorAll('.panel');
+    
+        function showContent(buttonNumber) {
+        // Hide all content panels
+        panels.forEach(panel => {
+            panel.style.display = 'none';
+        });
+    
+        // Show the content panel corresponding to the clicked button
+        const contentId = 'content' + buttonNumber;
+        const content = document.getElementById(contentId);
+        content.style.display = 'block';
+    
+        // Update the "active" class for buttons
+        buttons.forEach(button => {
+            button.classList.remove('active');
+        });
+    
+        buttons[buttonNumber - 1].classList.add('active');
+        }
+    
+        // Set the initial active button
+        showContent(1);
+    </script>
+    <script>
+        const buttons_1 = document.querySelectorAll('.papers_btn_1');
+        const panels_1 = document.querySelectorAll('.panel_1');
+    
+        function showContent_1(buttonNumber) {
+            // Hide all content panels
+            panels_1.forEach(panel_1 => {
+                panel_1.style.display = 'none';
+            });
+    
+            // Show the content panel corresponding to the clicked button
+            const contentId = 'content' + buttonNumber;
+            const content = document.getElementById(contentId);
+            content.style.display = 'block';
+    
+            // Update the "active" class for buttons
+            buttons_1.forEach(button_1 => {
+                button_1.classList.remove('active');
+            });
+    
+            buttons_1[buttonNumber - 4].classList.add('active'); // Adjusted index here
+        }
+    
+        // Set the initial active button
+        showContent_1(4);
+    </script>
+
+            
 </body>
 
 <!-- Mirrored from preview.colorlib.com/theme/portech/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Sep 2021 20:37:57 GMT -->
